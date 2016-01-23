@@ -1,0 +1,317 @@
+    /*stylesheet for index-moblie.html*/
+    /*基本属性*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        width: 100%;
+        font-size: .625rem;
+        font-family: "黑体";
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    aside {
+        box-sizing: border-box;
+    }
+    
+    .con {
+        width: 100%;
+        min-width: 320px;
+        height: 960px;
+        margin: 0 auto;
+        background: #f1f2f2;
+        position: relative;
+    }
+    /*header start*/
+    
+    header {
+        width: 100%;
+        height: 332px;
+    }
+    
+    .top {
+        width: 100%;
+        height: 88px;
+        background: #3e6108 url(./p/top.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .introduce {
+        position: relative;
+        width: 100%;
+        height: 244px;
+        background: #fff url(./p/header1.jpg) no-repeat;
+        /*background-size: cover;*/
+    }
+    
+    .btn {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 52px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    
+    .btn span {
+        display: block;
+        position: absolute;
+        right: 23px;
+        top: 20px;
+        width: 86px;
+        height: 14px;
+        background: url(./p/icon.png) no-repeat -10px -940px;
+    }
+    /*end header*/
+    /*article start*/
+    
+    article {
+        width: 100%;
+        height: 502px;
+    }
+    
+    .opject-1,
+    .opject-2 {
+        display: -webkit-box;
+        display: -moz-box;
+        width: 93%;
+        height: 138px;
+        margin: 0 auto 14px auto;
+        padding-top: 12px;
+    }
+    
+    .opject-1>a,
+    .opject-2>a {
+        display: block;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        width: 179px;
+        height: 138px;
+        border-radius: 5%;
+        margin: 0 10px;
+        color: #fff;
+        text-align: center;
+        font-size: 2.4em;
+    }
+    
+    .opject-1 span,
+    .opject-2 span {
+        display: block;
+        width: 74px;
+        height: 74px;
+        margin: 20px auto 10px auto;
+    }
+    
+    .opj-1 {
+        background: #0bbebb;
+    }
+    
+    .opj-1 span {
+        background: #0bbebb url(./p/icon.png) no-repeat -10px -430px;
+    }
+    
+    .opj-2 {
+        background: #afd23a;
+    }
+    
+    .opj-2 span {
+        background: #afd23a url(./p/icon.png) no-repeat -10px -346px;
+    }
+    
+    .opj-3 {
+        background: #f48221;
+    }
+    
+    .opj-3 span {
+        background: #f48221 url(./p/icon.png) no-repeat -10px -262px;
+    }
+    
+    .opj-4 {
+        background: #ef5972;
+    }
+    
+    .opj-4 span {
+        background: #ef5972 url(./p/icon.png) no-repeat -10px -178px;
+    }
+    
+    .opj-5 {
+        background: #3eb7ee;
+    }
+    
+    .opj-5 span {
+        background: #3eb7ee url(./p/icon.png) no-repeat -10px -94px;
+    }
+    
+    .opj-6 {
+        background: #6eb943;
+    }
+    
+    .opj-6 span {
+        background: #6eb943 url(./p/icon.png) no-repeat -10px -10px;
+    }
+    
+    .main-content {
+        position: relative;
+        width: 93%;
+        height: 175px;
+        margin: 26px auto 0;
+        background: #fafafa;
+        border: 1px solid #d7d7d7;
+        border-radius: 6px;
+    }
+    
+    .main-content li {
+        display: block;
+        width: 84%;
+        height: 71px;
+    }
+    
+    .mc-1 {
+        margin: 9px auto 16px;
+    }
+    
+    .mc-2 {
+        margin: 16px auto 9px;
+    }
+    
+    .mc-1 span,
+    .mc-2 span {
+        display: block;
+        float: left;
+        width: 71px;
+        height: 71px;
+        margin-right: 44px;
+    }
+    
+    .mc-1 span {
+        background: #fafafa url(./p/icon.png) no-repeat -10px -514px;
+    }
+    
+    .mc-2 span {
+        background: #fafafa url(./p/icon.png) no-repeat -10px -595px;
+    }
+    
+    .title-line {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+        background: #d7d7d7;
+    }
+    
+    .mc-title,
+    .mc-text {
+        color: #5A5A5A;
+    }
+    
+    .mc-title {
+        font-size: 3em;
+        padding: 5px 0 5px;
+    }
+    
+    .mc-text {
+        font-size: 2.4em;
+    }
+    /*end aricle*/
+    /*footer start*/
+    
+    footer {
+        background: -webkit-linear-gradient(top, #5e5e5e, #070707);
+        background: -moz-linear-gradient(top, #5e5e5e, #070707);
+        position: absolute;
+        bottom: 0;
+        z-index: 100;
+        width: 100%;
+        height: 97px;
+    }
+    
+    nav {
+        width: 100%;
+        height: 97px;
+    }
+    
+    footer ul {
+        display: -webkit-box;
+        display: -moz-box;
+    }
+    
+    footer li {
+        display: block;
+        width: 100%;
+        height: 97px;
+        text-align: center;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+    }
+    
+    footer a {
+        height: 97px;
+        display: block;
+        font-size: 2.4em;
+    }
+    
+    footer a p {
+        display: block;
+        padding-top: 45%;
+    }
+    
+    .homepage.choose {
+        color: #3e6108;
+        background: url(./p/icon2.png) no-repeat -10px -438px;
+    }
+    
+    .homepage.notchoose {
+        color: #cccccc;
+        background: url(./p/icon2.png) no-repeat -10px -973px;
+    }
+    
+    .shopping.choose {
+        color: #3e6108;
+        background: url(./p/icon2.png) no-repeat -10px -331px;
+    }
+    
+    .shopping.notchoose {
+        color: #cccccc;
+        background: url(./p/icon2.png) no-repeat -10px -866px;
+    }
+    
+    .product.choose {
+        color: #3e6108;
+        background: url(./p/icon2.png) no-repeat -10px -224px;
+    }
+    
+    .product.notchoose {
+        color: #cccccc;
+        background: url(./p/icon2.png) no-repeat -10px -759px;
+    }
+    
+    .vip.choose {
+        color: #3e6108;
+        background: url(./p/icon2.png) no-repeat -10px -117px;
+    }
+    
+    .vip.notchoose {
+        color: #cccccc;
+        background: url(./p/icon2.png) no-repeat -10px -652px;
+    }
+    
+    .more.choose {
+        color: #3e6108;
+        background: url(./p/icon2.png) no-repeat -10px -10px;
+    }
+    
+    .more.notchoose {
+        color: #cccccc;
+        background: url(./p/icon2.png) no-repeat -10px -545px;
+    }
+    /*end footer*/
+

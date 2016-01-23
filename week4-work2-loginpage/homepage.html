@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>后台登陆首页</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./homepage.css">
+</head>
+
+<body>
+    <div class="container-fluit con">
+        <header class="row header-wrap">
+            <!--top nav start-->
+            <nav class="navbar navbar-inverse nav-wrap col-xs-12">
+                <p class="navbar-header nav-title col-xs-12 col-sm-10 col-md-5 col-lg-3 ">某某公司后台管理系统</p>
+                <form class="navbar-form form-horizontal form-search hidden-xs col-sm-7 col-md-7 col-lg-7 ">
+                    <div class="form-gruop">
+                        <label class="form-label" for="search-text"></label>
+                        <input class="form-control " type="text" id="search-text" placeholder="内容查找">
+                        <button class="form-control btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </form>
+                <p class="navbar-text  nav-content col-xs-12 col-sm-4 col-md-2 col-lg-4 ">欢迎管理员:<a href="#" class="navbar-link">admin</a>登录本系统</p>
+                <form class="navbar-form col-xs-12 col-sm-1 col-md-1 col-lg-1 ">
+                    <button class="btn btn-info">退出登录</button>
+                </form>
+            </nav>
+            <!--end top nav-->
+        </header>
+        <article class="row content">
+            <div class="container-fluit">
+                <!--nav for samllscreen-->
+                <aside class="menu-small col-xs-12  hidden-md hidden-lg ">
+                    
+                   <form class="form-group">
+                       <select class="form-control menu-small-select">
+                           <option selected>产品发布管理</option>
+                           <option>新闻发布管理</option>
+                           <option>网站图片管理</option>
+                           <option>企业邮件管理</option>
+                           <option>管理员权限设置</option>
+                           <option>用户名密码设置</option>
+                           <option>数据备份与还原</option>
+                       </select>
+                   </form>
+                </aside>
+                <!--left nav start-->
+                <aside class="menu col-md-2  hidden-sm hidden-xs">
+                    <nav>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="#">网站结构管理</a></li>
+                            <li class="active"><a href="#">产品发布管理</a></li>
+                            <li><a href="#">新闻发布管理</a></li>
+                            <li><a href="#">网站图片管理</a></li>
+                            <li><a href="#">企业邮件管理</a></li>
+                            <li><a href="#">管理员权限设置</a></li>
+                            <li><a href="#">用户名密码设置</a></li>
+                            <li><a href="#">数据备份与还原</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <!--end left nav-->
+                <!--right content start-->
+                <aside class="col-md-10 col-sm-12 col-xs-12">
+                    <div class="wrap-title">
+                        <em>产品发布管理</em>
+                        <button class="btn btn-success btn-xs"><span></span>新增</button>
+                        <button class="btn btn-warning btn-xs">停用</button>
+                        <button class="btn btn-danger btn-xs">删除</button>
+                    </div>
+                </aside>
+                <aside class="col-md-10 col-sm-12 table-wrap">
+                    <div class="table-con">
+                        <form>
+                            <table class="table table-striped table-condensed table-responsive">
+                                <thead>
+                                    <caption>
+                                    </caption>
+                                    <tr>
+                                        <th>编号</th>
+                                        <th>产品名称</th>
+                                        <th>产品类型</th>
+                                        <th>发布日期</th>
+                                        <th>发布状态</th>
+                                        <th>修改日期</th>
+                                        <th>优先级</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num1">
+                                            <label for="num1">001</label>
+                                        </td>
+                                        <td>GMAC-L1-1</td>
+                                        <td>户外投光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>1</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num2">
+                                            <label for="num2">002</label>
+                                        </td>
+                                        <td>GMAC-L1-2</td>
+                                        <td>户外投光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>2</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num3">
+                                            <label for="num3">003</label>
+                                        </td>
+                                        <td>GMAC-L1-3</td>
+                                        <td>户外投光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>3</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num4">
+                                            <label for="num4">004</label>
+                                        </td>
+                                        <td>GMAC-L1-4</td>
+                                        <td>户外投光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num5">
+                                            <label for="num5">005</label>
+                                        </td>
+                                        <td>GMAC-L1-5</td>
+                                        <td>户外投光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>5</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num6">
+                                            <label for="num6">006</label>
+                                        </td>
+                                        <td>GMAC-M1-1</td>
+                                        <td>室内装饰灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>6</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num7">
+                                            <label for="num7">007</label>
+                                        </td>
+                                        <td>GMAC-M1-2</td>
+                                        <td>室内装饰灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>7</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num8">
+                                            <label for="num8">008</label>
+                                        </td>
+                                        <td>GMAC-M1-3</td>
+                                        <td>室内装饰灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>8</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num9">
+                                            <label for="num9">009</label>
+                                        </td>
+                                        <td>GMAC-M1-4</td>
+                                        <td>室内装饰灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>9</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num10">
+                                            <label for="num10">010</label>
+                                        </td>
+                                        <td>GMAC-M1-5</td>
+                                        <td>室内装饰灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>10</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num11">
+                                            <label for="num11">011</label>
+                                        </td>
+                                        <td>GMAC-S1-1</td>
+                                        <td>球泡灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>11</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num12">
+                                            <label for="num12">012</label>
+                                        </td>
+                                        <td>GMAC-S1-2</td>
+                                        <td>球泡灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>12</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num13">
+                                            <label for="num13">013</label>
+                                        </td>
+                                        <td>GMAC-S1-3</td>
+                                        <td>球泡灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>13</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num14">
+                                            <label for="num14">014</label>
+                                        </td>
+                                        <td>GMAC-S1-4</td>
+                                        <td>球泡灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>14</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num15">
+                                            <label for="num15">015</label>
+                                        </td>
+                                        <td>GMAC-S1-5</td>
+                                        <td>球泡灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>15</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num16">
+                                            <label for="num16">016</label>
+                                        </td>
+                                        <td>GMAC-G1-1</td>
+                                        <td>日光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>16</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num17">
+                                            <label for="num17">017</label>
+                                        </td>
+                                        <td>GMAC-G1-2</td>
+                                        <td>日光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>17</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num18">
+                                            <label for="num18">018</label>
+                                        </td>
+                                        <td>GMAC-G1-3</td>
+                                        <td>日光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>18</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num19">
+                                            <label for="num19">019</label>
+                                        </td>
+                                        <td>GMAC-G1-4</td>
+                                        <td>日光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>19</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="product-num" id="num20">
+                                            <label for="num20">020</label>
+                                        </td>
+                                        <td>GMAC-G1-5</td>
+                                        <td>日光灯</td>
+                                        <td>2015-02-01</td>
+                                        <td>开启</td>
+                                        <td>2015-03-05</td>
+                                        <td>20</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-xs">编辑</button>
+                                            <button class="btn btn-warning btn-xs">停用</button>
+                                            <button class="btn btn-danger btn-xs">删除</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <nav class="pagin-wrap">
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+                <!--end right cotent-->
+                <!-- </div> -->
+                <!--container in article-->
+            </div>
+        </article>
+    </div>
+    <!--container-->
+</body>
+
+</html>

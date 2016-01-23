@@ -1,0 +1,483 @@
+/*stylesheet for index-moblie.html*/
+
+
+/*for ipone6*/
+
+
+/*基本属性*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-size: .625rem;
+    font-family: "黑体";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+aside {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    height: 627px;
+    margin: 0 auto;
+    background: #f1f2f2;
+}
+
+
+/*header start*/
+
+header {
+    width: 100%;
+    height: 34%;
+}
+
+.top {
+    width: 100%;
+    height: 23%;
+    background: #3e6108 url(./p/top.jpg) no-repeat;
+    background-size: cover;
+}
+
+.introduce {
+    position: relative;
+    width: 100%;
+    height: 77%;
+    background: #fff url(./p/header1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.btn span {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 34%;
+    width: 24%;
+    height: 39%;
+    background: url(./p/icon.png) no-repeat -10px -940px;
+}
+
+
+/*end header*/
+
+
+/*article start*/
+
+article {
+    width: 100%;
+    height: 56%;
+}
+
+.opject-1,
+.opject-2 {
+    display: -webkit-box;
+    display: -moz-box;
+    width: 93%;
+    height: 27.6%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.opject-1>a,
+.opject-2>a {
+    display: block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    margin: 0 1%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.opject-1 span,
+.opject-2 span {
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin: 7% auto 1% auto;
+}
+
+.opj-1 {
+    background: #0bbebb;
+}
+
+.opj-1 span {
+    background: #0bbebb url(./p/icon.png) no-repeat 4px 46%;
+    background-size: 100%;
+}
+
+.opj-2 {
+    background: #afd23a;
+}
+
+.opj-2 span {
+    background: #afd23a url(./p/icon.png) no-repeat 4px 37%;
+    background-size: 100%;
+}
+
+.opj-3 {
+    background: #f48221;
+}
+
+.opj-3 span {
+    background: #f48221 url(./p/icon.png) no-repeat 4px 28%;
+    background-size: 100%;
+}
+
+.opj-4 {
+    background: #ef5972;
+}
+
+.opj-4 span {
+    background: #ef5972 url(./p/icon.png) no-repeat 4px 19%;
+    background-size: 100%;
+}
+
+.opj-5 {
+    background: #3eb7ee;
+}
+
+.opj-5 span {
+    background: #3eb7ee url(./p/icon.png) no-repeat 4px 9.8%;
+    background-size: 100%;
+}
+
+.opj-6 {
+    background: #6eb943;
+}
+
+.opj-6 span {
+    background: #6eb943 url(./p/icon.png) no-repeat 4px 0.9%;
+    background-size: 100%;
+}
+
+.main-content {
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    width: 93%;
+    height: 37%;
+    margin: 3% auto 0;
+    background: #fafafa;
+    border: 1px solid #d7d7d7;
+    border-radius: 2%;
+}
+
+.main-content ul {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+}
+
+.main-content li {
+    display: block;
+    width: 94%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+
+.mc-1 {
+    margin: 9px;
+}
+
+.mc-2 {
+    margin: 9px;
+}
+
+.mc-1 span,
+.mc-2 span {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 45px;
+    margin-right: -2%;
+}
+
+.mc-1 span {
+    background: #fafafa url(./p/icon.png) no-repeat -3px 55%;
+    background-size: 100%;
+}
+
+.mc-2 span {
+    background: #fafafa url(./p/icon.png) no-repeat -3px 64%;
+    background-size: 100%;
+}
+
+.title-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #d7d7d7;
+}
+
+.mc-title,
+.mc-text {
+    color: #5A5A5A;
+}
+
+.mc-title {
+    font-size: 2em;
+}
+
+.mc-text {
+    font-size: 1.4em;
+}
+
+
+/*end aricle*/
+
+
+/*footer start*/
+
+footer {
+    display: -webkit-box;
+    display: -moz-box;
+    background: -webkit-linear-gradient(top, #5e5e5e, #070707);
+    background: -moz-linear-gradient(top, #5e5e5e, #070707);
+    width: 100%;
+    height: 10%;
+}
+
+footer nav {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+footer ul {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+footer li {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+
+footer a {
+    height: 100%;
+    display: block;
+    font-size: 1.5em;
+}
+
+footer a p {
+    display: block;
+    padding-top: 5%;
+}
+
+footer a span {
+    display: block;
+    width: 53%;
+    height: 40px;
+    margin: 0 auto;
+    background: url(./p/icon2.png) no-repeat;
+    background-size: 142%;
+    background-position-x: -8px;
+}
+
+.choose {
+    color: #3e6108;
+    background: -webkit-linear-gradient(top, #6fa517, #92c93a);
+    background: -moz-linear-gradient(top, #6fa517, #92c93a);
+    box-shadow: 0 0 1px 1px #bbe67a inset;
+}
+
+.notchoose {
+    color: #cccccc;
+}
+
+.homepage.choose>span {
+    background-position-y: 97%;
+}
+
+.homepage.notchoose>span {
+    background-position-y: 44%;
+}
+
+.shopping.choose>span {
+    background-position-y: 87%;
+}
+
+.shopping.notchoose>span {
+    background-position-y: 33%;
+}
+
+.product.choose>span {
+    background-position-y: 76.1%;
+}
+
+.product.notchoose>span {
+    background-position-y: 23%;
+}
+
+.vip.choose>span {
+    background-position-y: 66%;
+}
+
+.vip.notchoose>span {
+    background-position-y: 12%;
+}
+
+.more.choose>span {
+    background-position-y: 55%;
+}
+
+.more.notchoose>span {
+    background-position-y: 1%;
+}
+
+
+/*end footer*/
+
+
+/*media queri*/
+
+
+/*for ipone 6 landscape*/
+
+@media screen and (device-width:667px) and (orientation:landscape) {
+    .container {
+        height: 1084px;
+    }
+    .btn span {
+        background: url(./p/icon.png) no-repeat -10px -933px;
+    }
+    .opject-1>a,
+    .opject-2>a {
+        font-size: 2.2em;
+    }
+    .mc-1 span,
+    .mc-2 span {
+        height: 85px;
+    }
+    .mc-title {
+        font-size: 4em;
+    }
+    .mc-text {
+        font-size: 2.4em;
+    }
+    footer li {
+        height: 107px;
+    }
+    footer a span {
+        height: 73px;
+        background-position-x: -17px;
+    }
+    footer a p {
+        padding-top: 2%;
+    }
+    footer a {
+        font-size: 2.5em;
+    }
+}
+/*for ipone 6plus landscape*/
+@media screen and (device-width:736px) and (orientation:landscape) {
+    .container {
+        height: 1084px;
+    }
+    .btn span {
+        background: url(./p/icon.png) no-repeat -10px -933px;
+    }
+    .opject-1>a,
+    .opject-2>a {
+        font-size: 2.2em;
+    }
+    .mc-1 span,
+    .mc-2 span {
+        height: 85px;
+    }
+    .mc-title {
+        font-size: 4em;
+    }
+    .mc-text {
+        font-size: 2.4em;
+    }
+    footer li {
+        height: 107px;
+    }
+    footer a span {
+        height: 73px;
+        background-position-x: -17px;
+    }
+    footer a p {
+        padding-top: 2%;
+    }
+    footer a {
+        font-size: 2.5em;
+    }
+}
+
+
+/*for ipone 6plus*/
+
+@media screen and (device-width:414px) {
+    .container {
+        height: 736px;
+    }
+    .opj-6 span {
+        background: #6eb943 url(./p/icon.png) no-repeat 4px 0.7%;
+        background-size: 100%;
+    }
+    .opject-1>a,
+    .opject-2>a {
+        font-size: 1.9em;
+    }
+    .mc-1 span,
+    .mc-2 span {
+        height: 58px;
+    }
+    .mc-title {
+        font-size: 2.7em;
+    }
+    .mc-text {
+        font-size: 2.1em;
+    }
+    footer li {
+        height: 74px;
+    }
+    footer a p {
+    
+    padding-top: 7%;
+    }
+    footer a {
+    font-size: 1.9em;
+    }
+}

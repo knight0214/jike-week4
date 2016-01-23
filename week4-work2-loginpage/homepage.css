@@ -1,0 +1,132 @@
+/*stylesheet for homepage.html*/
+
+
+/*基本属性*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: .625rem;
+    font-family: "微软雅黑";
+}
+
+ul {
+    list-style: none;
+}
+
+.con {
+    width: 100%;
+    /*min-width: 800px;*/
+    background: #2C89CF;
+    overflow-y: hidden;
+}
+
+
+/*header部分*/
+
+header {
+    height: 50px;
+}
+
+.header-wrap {
+    margin-right: 0;
+}
+
+.nav-wrap {
+    margin-bottom: 0;
+    z-index: 100;
+    border-radius: 0px;
+    background: -webkit-linear-gradient(top, #333, #2C89CF);
+    background: -moz-linear-gradient(top, #333, #2C89CF);
+}
+
+
+/*article部分*/
+
+article {
+    z-index: 0;
+    margin-top: 3px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    margin: 3px 0 0;
+}
+
+.nav-title {
+    font-size: 3.6em;
+    color: #fff;
+    margin: 7px 0 0 0;
+}
+
+.nav-content {
+    font-size: 2em;
+}
+
+.menu-small {
+    z-index: 2;
+}
+.menu-small-select{
+    width: 150px;
+    margin-top: 13px;
+    margin-bottom: -12px;
+    border-radius: 5px;
+    background-color: #1D82BF;
+    color: #fff;
+}
+
+.menu {
+    font-size: 2em;
+    box-shadow: 1px 3px 6px 1px #64ACD0;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.wrap-title {
+    min-width: 254px;
+    height: 36px;
+    margin-top: 10px;
+    line-height: 33px;
+    border-radius: 36px;
+    background: #1D82BF;
+    color: #fff;
+    font-size: 1.9em;
+}
+
+.wrap-title em {
+    margin: 0 20px;
+    font-style: normal;
+}
+
+.table-wrap {
+    overflow: auto;
+}
+
+.table-con {
+    min-width: 800px;
+}
+
+@media screen and (max-device-height:768px) {
+    .table-con {
+        height: window.inner-height;
+    }
+}
+
+form {
+    z-index: 0;
+}
+
+table {
+    font-size: 2em;
+}
+
+.pagin-wrap {
+    font-size: 1.5em;
+}
